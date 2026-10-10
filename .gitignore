@@ -1,0 +1,9 @@
+# Αρχεία του λειτουργικού συστήματος
+.DS_Store
+Thumbs.db
+
+# Ρυθμίσεις του editor
+.vscode/
+
+# Εξαρτήσεις (για μελλοντικά projects)
+node_modules/
