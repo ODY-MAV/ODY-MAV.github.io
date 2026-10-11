@@ -8,22 +8,10 @@
     <script src="js/theme.js"></script>
     <script src="js/menu.js" defer></script>
 </head>
-<body>
-<header class="menu-bar">
-    <div class="logo">My<span class="logo1">Personal</span><span class="logo2">Site</span></div>
-    <button id="menu-toggle" class="menu-toggle" type="button"
-            aria-label="Άνοιγμα μενού" aria-expanded="false" aria-controls="main-nav">☰</button>
-    <nav id="main-nav">
-        <ul class="menu-links">
-            <li><a href="./">Αρχική</a></li>
-            <li><a href="AboutMe.html" class="active">Σχετικά</a></li>
-            <li><a href="Education.html">Εκπαίδευση</a></li>
-            <li><a href="Hobbies.html">Χόμπι</a></li>
-            <li><a href="Contact.html">Επικοινωνία</a></li>
-        </ul>
-    </nav>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Αλλαγή θέματος">🌙</button>        
-</header>
+<body data-page="about">
+
+<header class="menu-bar" id="site-header"></header>
+<script src="js/header.js"></script>
 
 <main>
     <section class="page">
